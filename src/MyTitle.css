@@ -1,0 +1,58 @@
+/* MyTitle.css */
+
+设置整个标题栏的背景颜色
+QWidget#myTitlebar {
+    background-color: rgb(200, 153, 153);
+}
+
+/* 设置标题内容的样式 */
+QLabel#TitleContent {
+    color: white;                   /* 标题文字颜色 */
+    font-size: 9pt;                 /* 标题文字大小 */
+    padding-left: 5px;              /* 左边距 */
+}
+
+/* 设置最小化按钮的样式 */
+QPushButton#ButtonMin {
+    background-color: transparent;  /* 背景透明 */
+    border: none;                   /* 无边框 */
+    image: url(:/Resources/min.png);/* 图标路径 */
+}
+
+QPushButton#ButtonMin:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+/* 设置还原按钮的样式 */
+QPushButton#ButtonRestore {
+    background-color: transparent;
+    border: none;
+    image: url(:/Resources/restore.png);
+}
+
+QPushButton#ButtonRestore:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+/* 设置最大化按钮的样式 */
+QPushButton#ButtonMax {
+    background-color: transparent;
+    border: none;
+    image: url(:/Resources/max.png);
+}
+
+QPushButton#ButtonMax:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+/* 设置关闭按钮的样式 */
+QPushButton#ButtonClose {
+    background-color: transparent;
+    border: none;
+    image: url(:/Resources/close.png);
+}
+
+QPushButton#ButtonClose:hover {
+    background-color: rgb(255, 0, 0);
+}
+
